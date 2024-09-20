@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  redis:
+    image: redis
+    command: /bin/sh -c "redis-server"
+    env_file:
+      - .env
+    ports:
+      - 6379:6379
