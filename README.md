@@ -6,7 +6,6 @@ Optimize your applications for peak performance today!
 ## Running the docker
 
 ```bash
-# create docker image
 $ docker-compose up --build
 $ docker-compose down
 ```
